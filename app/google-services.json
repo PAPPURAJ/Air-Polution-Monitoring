@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "141038260917",
+    "firebase_url": "https://airpol-55410-default-rtdb.firebaseio.com",
+    "project_id": "airpol-55410",
+    "storage_bucket": "airpol-55410.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141038260917:android:ea7484786af50b52d864fc",
+        "android_client_info": {
+          "package_name": "com.blogspot.rajbtc.airpolmon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141038260917-bmjqml43tlb6on5cfktdadh66sn7c7sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNFPGm99pH_kwFWC9ksqm5PBADLnepIlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141038260917-bmjqml43tlb6on5cfktdadh66sn7c7sg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
