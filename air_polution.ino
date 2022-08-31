@@ -1,3 +1,4 @@
+
 #include "FirebaseESP8266.h"
 #include <ESP8266WiFi.h>
 
@@ -16,9 +17,11 @@ FirebaseJson json;
 
 
 String readData(String field){
+  
 if (Firebase.getString(loadData, "/Data/"+field)){
     return loadData.stringData();
   }
+  
 }
 
 
@@ -84,7 +87,7 @@ void pinSet(){
   pinMode(A0,INPUT);
   pinMode(D0,INPUT);
   pinMode(D5,INPUT);
-  pinMode(D6,OUTPUT);
+  pinMode(D6,OUTPUT); //FAN
   
 }
 
@@ -112,7 +115,7 @@ void loop() {
   writeDB("Fan",String(in1>500 || in2 || in3 || button=="1"));
   delay(200);
   writeDB("Fire",String(in3));
-  delay(200);
+  delay(300);
 
   
 
@@ -122,6 +125,7 @@ void loop() {
 
   
   writeDB("Monitor",moni);
+  delay(300);
 
    
   
